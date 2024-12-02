@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2024-03-26-07-47-56
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	version	user_agent	origin	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	tags	username	password	proxied	orig_fuids	orig_filenames	orig_mime_types	resp_fuids	resp_filenames	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	string	string	count	count	count	string	count	string	set[enum]	string	string	set[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1711248543.502639	CVaieC3cfSmaiVqbOk	192.168.0.112	44662	159.69.47.205	80	1	-	-	-	-	1.1	-	-	0	206	416	Requested Range Not Satisfiable	-	-	(empty)	-	-	-	-	-	-	F2rJQW2pW9QCjBvnM5	-	text/html
+1711248543.670982	CAmmF03EMANYJk4e1g	192.168.0.112	54432	13.32.121.48	80	1	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1711248544.242051	CAmmF03EMANYJk4e1g	192.168.0.112	54432	13.32.121.48	80	2	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1711248544.529988	CAmmF03EMANYJk4e1g	192.168.0.112	54432	13.32.121.48	80	3	-	-	-	-	1.1	-	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1711248779.406435	CoiKBJ2JnKvXBkjcF9	192.168.0.112	43340	18.155.49.10	80	1	-	-	-	-	1.1	-	-	0	0	204	No Content	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1711249079.396326	CqwGtE1uRHMhHr7OXk	192.168.0.112	35770	18.155.49.10	80	1	-	-	-	-	1.1	-	-	0	0	204	No Content	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1711249084.313022	CNYDX82jkrCSFkVbdf	192.168.0.112	41502	142.250.193.99	80	1	-	-	-	-	1.1	-	-	0	472	200	OK	-	-	(empty)	-	-	-	-	-	-	FdqK5848fb6PNMM9Af	-	application/ocsp-response
+#close	2024-03-26-07-47-57

@@ -1,0 +1,22 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2024-03-30-17-34-55
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	rtt	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	interval	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1711595599.526005	CG9U634Bxxo6GpSaA9	192.168.0.112	49639	192.168.0.1	53	udp	26733	0.002038	ssl.gstatic.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	142.250.195.35	248.000000	F
+1711595599.526764	Cpksen3tdkIbdqWG8g	192.168.0.112	38510	192.168.0.1	53	udp	44733	-	ssl.gstatic.com	1	C_INTERNET	28	AAAA	0	NOERROR	F	F	T	F	0	-	-	F
+1711595605.434127	CXcaqa305uwknuA2G	192.168.0.112	43982	192.168.0.1	53	udp	19698	-	profile.accounts.firefox.com	1	C_INTERNET	28	AAAA	0	NOERROR	F	F	T	F	0	-	-	F
+1711595614.412469	C5R3oLQkmUmDJ4yUf	192.168.0.112	55922	192.168.0.1	53	udp	43540	0.078586	self-signed.badssl.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	104.154.89.105	3600.000000	F
+1711595614.413206	C5OLDT1TiVWTO0ElRk	192.168.0.112	34982	192.168.0.1	53	udp	35077	-	self-signed.badssl.com	1	C_INTERNET	28	AAAA	0	NOERROR	F	F	T	F	0	-	-	F
+1711595617.773993	Czt2Yo3wIBInRrbYr4	192.168.0.103	5353	224.0.0.251	5353	udp	17	-	_spotify-social-listening._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1711595617.773996	ClG4rL1sxUS86cMQQf	fe80::c053:d8ff:fe60:3fa2	5353	ff02::fb	5353	udp	17	-	_spotify-social-listening._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1711595622.471928	ChcNrQ1f8rDJDy3SU2	fe80::e58e:5608:c348:1d65	5353	ff02::fb	5353	udp	0	-	_microsoft_mcc._tcp.local	32769	qclass-32769	12	PTR	-	-	F	F	F	F	0	-	-	F
+1711595623.477927	ChcNrQ1f8rDJDy3SU2	fe80::e58e:5608:c348:1d65	5353	ff02::fb	5353	udp	0	-	_microsoft_mcc._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1711595627.775835	C6e2SM3CovpNHriVg	192.168.0.103	5353	224.0.0.251	5353	udp	205	-	_spotify-social-listening._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1711595627.776999	C6e2SM3CovpNHriVg	192.168.0.103	5353	224.0.0.251	5353	udp	777	-	_spotify-social-listening._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1711595627.776396	C10SlA3qNXX2XDnlvi	fe80::c053:d8ff:fe60:3fa2	5353	ff02::fb	5353	udp	205	-	_spotify-social-listening._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1711595627.777920	C10SlA3qNXX2XDnlvi	fe80::c053:d8ff:fe60:3fa2	5353	ff02::fb	5353	udp	777	-	_spotify-social-listening._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+#close	2024-03-30-17-34-56

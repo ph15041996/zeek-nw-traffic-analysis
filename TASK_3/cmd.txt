@@ -1,0 +1,66 @@
+
+    2  zeek check
+    5  cd zeek-6.0.3
+   15  which zeek
+   17  which zeek
+   18  zeek --v
+   19  cd /usr/local/zeek/etc/
+   22  zeekctl check
+   23  zeekctl deploy
+   24  zeekctl status
+   25  cd /usr/local/zeek/logs/current
+   30  vi /usr/local/zeek/etc/
+   31  cd /usr/local/zeek/etc/
+   34  zeekctl deploy
+   37  zeekctl deploy
+   38  zeekctl status
+   39  zeekctl netstats
+   40  zeekctl capstats
+   41  cd /usr/local/zeek/logs/
+   55  zeek-cut -m -d ts uid id.orig_h id.orig_p id.resp_h id.resp_p proto < conn.log
+   56  zeek-cut -m -d ts uid id.orig_h id.orig_p id.resp_h id.resp_p proto < conn.log 
+   57  tail conn.log | zeek-cut -m -d id.resp_h
+   58  tail conn.log | zeek-cut -m -d ts uid id.orig_h id.orig_p id.resp_h id.resp_p proto 
+   61  vi sample.zeek
+   63  zeek -C -r test.pcap sample.zeek 
+   68  vi sample.zeek 
+   69  zeek -C -r test.pcap sample.zeek 
+   75  mkdir /usr/local/zeek/etc/site/myscripts
+   76  mkdir /usr/local/zeek/etc/site/
+   77  mkdir /usr/local/zeek/etc/site/myscripts
+   78  cp sample.zeek /usr/local/zeek/etc/site/myscripts/
+   79  vi /usr/local/zeek/share/zeek/site/local.zeek 
+   80  zeekctl deploy
+   81  vi /usr/local/zeek/share/zeek/site/local.zeek
+   82  zeekctl deploy
+   83  vim /usr/local/zeek/share/zeek/site/local.zeek
+   85  vim /usr/local/zeek/share/zeek/site/local.zeek
+   86  zeekctl deploy
+   87  vim /usr/local/zeek/share/zeek/site/local.zeek
+   88  zeekctl deploy
+   89  vim /usr/local/zeek/share/zeek/site/local.zeek
+   90  cp sample.zeek /usr/local/zeek/share/zeek/site/m
+   91  cp sample.zeek /usr/local/zeek/share/zeek/site/myscripts
+   92  cd /usr/local/zeek/share/zeek/site/
+   98  cp sample.zeek /usr/local/zeek/share/zeek/site/myscripts
+   99  zeekctl deploy
+  100  cp sample.zeek /usr/local/zeek/share/zeek/site/myscripts
+  101  cd /usr/local/zeek/share/zeek/site/
+  108  vi local.zeek 
+  113  cp sample.zeek /usr/local/zeek/share/zeek/site/myscripts
+  114  cd /usr/local/zeek/share/zeek/site/myscripts/
+  117  zeekctl deploy
+  118  cd /usr/local/zeek/share/zeek/site/mysripts/
+  124  vim sample.zeek 
+  125  zeekctl deploy
+  126  vim sample.zeek 
+  127  zeekctl deploy
+  131  zeek -C -r test.pcap sample.zeek 
+  134  vim sample.zeek 
+  445  cd /usr/local/zeek/share/zeek/site/mysripts/
+  454  vim sample.zeek 
+  459  history | grep "zeek"
+
+
+
+  ip address 104.154.89.105 of https://self-signed.badssl.com/
